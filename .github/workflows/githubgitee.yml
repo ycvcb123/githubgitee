@@ -15,4 +15,4 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.GITHUBGITEE }}
         with:
           source-repo: "git@github.com:ycvcb123/githubgitee.git"
-          destination-repo: "https://gitee.com/yezw/githubgitee.git"
+          destination-repo: "git@gitee.com:yezw/githubgitee.git"
